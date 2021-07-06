@@ -27,4 +27,3 @@ else if (userGamer > cpuGamer) {
 else {
     console.log("Avete pareggiato!")
 }
-
