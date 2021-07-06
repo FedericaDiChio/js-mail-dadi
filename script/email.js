@@ -23,3 +23,4 @@ var userEmail = prompt("Inserisci la tua e-mail");
 console.log(userEmail);
 
 
+// controllare se la mail dell'utente rientra tra le autorizzazioni 
