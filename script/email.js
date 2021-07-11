@@ -13,8 +13,11 @@ var emailAllowed = ["marty55@gmail.com", "Emmett85@gmail.com", "Clara85@gmail.co
 
 
 // Chiedere all'utente la sua mail
-var userEmail = prompt("Inserisci la tua e-mail");
+var userEmail;
 
+do {
+    userEmail = prompt("Inserisci la tua e-mail");
+} while (!userEmail)
 
 // controllare se la mail dell'utente rientra tra le autorizzazioni 
 
